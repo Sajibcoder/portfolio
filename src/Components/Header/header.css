@@ -1,0 +1,90 @@
+header {
+    /* height: 100vh; */
+    padding-top: 7rem;
+    overflow: hidden;
+    user-select: none;
+}
+
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+/* ========== cta style================== */
+
+.cta {
+    margin-top: 2.5rem;     
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ============ socials ====================== */
+
+
+.header__socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* position: absolute;
+    left: 0; */
+    margin-top: 40px;
+    font-size: 2.5rem;
+    bottom: 3rem;
+}
+
+
+
+
+/* ================== ME ==================== */
+
+.me {
+    /* background: linear-gradient(var(--color-primary),transparent);    */
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    top: -10%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0 ;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+/* ===================== Scroll Down =============================== */
+
+
+
+/* =========================media query for medium devices =============== */
+
+@media screen and (max-width:1024px){
+    /* header {
+        height: 68vh;
+    } */
+};
+    
+/* ====================media query for small devices ============================= */
+
+@media screen and (max-width:600px) {
+    header {
+        height: 70vh;
+    }
+
+    .header__socials
+     {
+        display: block;
+    }
+ 
+    header a{
+        display: block;
+    }
+}
